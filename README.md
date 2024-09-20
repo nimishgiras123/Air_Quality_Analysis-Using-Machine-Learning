@@ -56,7 +56,7 @@ The project includes visualizations such as:
    - By aggregating the pollutants like Benzene, Toluene, and Xylene into a single metric (**BTX**) and combining particulate matter measurements, new features were engineered that help in more accurate AQI predictions. These feature combinations provide insights into the cumulative effects of various pollutants on air quality.
    
 ### 3. **Model Performance**
-   - Machine learning models, specifically **Gradient Boosting** and **Random Forest**, were used for predicting AQI. Both models showed promising results in predicting AQI, with **Random Forest** slightly outperforming Gradient Boosting in terms of lower mean squared error and better prediction accuracy.
+   - Machine learning models, specifically **Linear Regression**, **Gradient Boosting** and **Random Forest**, were used for predicting AQI. **Linear Regression** and **Random Forest** showed promising results in predicting AQI, with **Random Forest** slightly outperforming Linear Regression in terms of lower mean squared error and better prediction accuracy.
    
 ### 4. **Visualization Insights**
    - The visualizations of actual vs. predicted AQI highlighted that the models were able to capture general trends and patterns in the data, though some outliers and extreme cases were harder to predict.
